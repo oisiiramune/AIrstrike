@@ -1,0 +1,20 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:attachable": {
+        "description": {
+            "geometry": {
+                "default": "geometry.b61"
+            },
+            "identifier": "ais:b61",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/b61"
+            },
+            "render_controllers": [
+                "controller.render.b61"
+            ]
+        }
+    }
+}

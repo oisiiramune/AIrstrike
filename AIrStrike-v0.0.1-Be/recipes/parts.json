@@ -1,0 +1,36 @@
+{
+  "format_version": "2",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ais:parts"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      " B ",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bamboo"
+      },
+      "B": {
+        "item": "minecraft:gold_nugget"
+      },
+      "C": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "item": "ais:parts",
+      "count": 3
+    },
+    "unlock": [
+      {
+        "item": "minecraft:redstone"
+      }
+    ]
+  }
+}

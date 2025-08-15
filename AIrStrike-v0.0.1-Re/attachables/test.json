@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "test:item",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "geometry": {
+        "default": "geometry.empty"
+      },
+      "textures": {
+        "default": "textures/items/apple"
+      },
+      "render_controllers": ["controller.render.default"]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "test:item"
+    },
+    "components": {
+      "minecraft:icon": "stick",
+      "minecraft:liquid_clipped": true,
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 0,
+        "saturation_modifier": 0
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 10000000
+      }
+    }
+  }
+}

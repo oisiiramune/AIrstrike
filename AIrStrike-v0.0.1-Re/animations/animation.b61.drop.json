@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.b61.drop": {
+			"animation_length": 19.3333,
+			"bones": {
+				"b61": {
+					"rotation": [0, 0, 5],
+					"position": {
+						"0.0": [523, 16000, 0],
+						"19.3333": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

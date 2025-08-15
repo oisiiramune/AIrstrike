@@ -1,0 +1,40 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "AirStrike v0.0.1-beta",
+        "description": "Maked by ramune",
+        "version": [1, 0, 0],
+        "uuid": "01d0d24f-de5e-47ff-a510-d7d7d1581e74",
+        "min_engine_version": [1, 21, 70]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "description": "meta-desc-data",
+            "version": [1, 0, 0],
+            "uuid": "3aa10cd0-8146-4028-9c6b-4d9c801a78e0"
+        },
+        {
+            "type": "script",
+            "description": "meta-desc-script",
+            "version": [1, 0, 0],
+            "uuid": "49bf6e50-7d1f-44f5-a778-4a1898a96655",
+            "language": "javascript",
+            "entry": "Config.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.1.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+        },
+        {
+            "uuid": "8979e933-ccd8-4d28-9e4f-004691ba9c24",
+            "version": [1, 0, 0]
+        }
+    ]
+}

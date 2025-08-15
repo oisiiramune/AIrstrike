@@ -1,0 +1,11 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.empty"
+      },
+      "bones": []
+    }
+  ]
+}

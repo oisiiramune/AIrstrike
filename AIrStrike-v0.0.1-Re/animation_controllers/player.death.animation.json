@@ -1,0 +1,24 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.player.death": {
+      "states": {
+        "default": {
+          "transitions": [
+            { "death": "!q.is_alive" }
+          ]
+        },
+
+        "death": {
+           "animations": [
+            { "animation": "animation.player_death", "loop": false }
+          ],
+          "transitions": [
+            { "death": "!q.is_alive" },
+            { "default": "q.is_alive" }
+          ]
+        }
+      }
+    }
+  }
+}

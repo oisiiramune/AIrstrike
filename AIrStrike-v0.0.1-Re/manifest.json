@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "AirStrike v0.0.1-beta",
+        "description": "maked by ramune",
+        "version": [1, 0, 0],
+        "uuid": "8979e933-ccd8-4d28-9e4f-004691ba9c24",
+        "min_engine_version": [1, 21, 50]
+    },
+        "modules": [
+            {
+                "type": "resources",
+                "description":"metadescr",
+                "version": [1, 0, 0],
+                "uuid": "64595ce5-af5b-4cbc-9e5a-86e3be349694"
+            }
+        ],
+        "dependencies": [
+            {
+                "uuid": "01d0d24f-de5e-47ff-a510-d7d7d1581e74",
+                "version": [1, 0, 0]
+            }
+        ]
+}

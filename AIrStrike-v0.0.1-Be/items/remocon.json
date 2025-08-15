@@ -1,0 +1,36 @@
+{
+    "format_version": "1.21.70",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ais:remocon",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:use_modifiers": {
+                "use_duration": 2
+            },
+            "minecraft:food": {
+                "can_always_eat": true,
+                "nutrition": 0,
+                "saturation_modifier": 0
+            },
+            "minecraft:display_name": {
+                "value": "Nuke remote controller"
+            },
+            "minecraft:cooldown": {
+                "category": "onFire",
+                "duration": 1
+            },
+            "minecraft:use_animation": "none",
+            "minecraft:icon": {
+                "textures": {
+                    "default": "nuke"
+                }
+            },
+            "minecraft:custom_components": ["ais:Remocon"]
+        }
+    }
+}
